@@ -1,0 +1,3 @@
+aiosmtplib
+uvicorn
+fastapi
