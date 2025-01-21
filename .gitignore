@@ -2,6 +2,7 @@ config.json
 main.dist
 main.onefile-build
 main.build
+*.exe
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
