@@ -151,7 +151,7 @@ async def webhook_get(
 
     if TOKEN_FLAG and token != SERVICE_TOKEN:
         return JSONResponse(
-            status_code=status.HTTP_400_BAD_REQUEST,
+            status_code=status.HTTP_401_UNAUTHORIZED,
             content={"error": "Token error"},
         )
 
@@ -205,7 +205,7 @@ async def webhook_post(request: Request) -> JSONResponse:
 
     if TOKEN_FLAG and token != SERVICE_TOKEN:
         return JSONResponse(
-            status_code=status.HTTP_400_BAD_REQUEST,
+            status_code=status.HTTP_401_UNAUTHORIZED,
             content={"error": "Token error"},
         )
 
