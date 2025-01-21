@@ -1,4 +1,7 @@
 config.json
+main.dist
+main.onefile-build
+main.build
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

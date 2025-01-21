@@ -68,8 +68,7 @@ def load_config(file_path: str) -> Config:
 
 
 # 加载配置
-config_path = os.path.join(os.path.dirname(__file__), "config.json")
-config: Config = load_config(config_path)
+config: Config = load_config("config.json")
 
 SMTP_SERVER: str = config["SMTP_SERVER"]
 SMTP_PORT: int = config["SMTP_PORT"]
