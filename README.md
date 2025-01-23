@@ -1,5 +1,10 @@
 # Webhook Email Sender
 
+![GitHub](https://img.shields.io/github/license/HowieHz/webhook-email-sender)
+![GitHub all releases](https://img.shields.io/github/downloads/HowieHz/webhook-email-sender/total)
+![GitHub release (latest by date)](https://img.shields.io/github/downloads/HowieHz/webhook-email-sender/latest/total)
+![GitHub repo size](https://img.shields.io/github/repo-size/HowieHz/webhook-email-sender)
+
 一个基于 FastAPI 的高性能异步 Webhook 服务，用于通过 SMTP 发送电子邮件。
 
 ## 功能
