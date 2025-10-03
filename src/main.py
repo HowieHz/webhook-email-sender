@@ -80,9 +80,7 @@ SERVICE_HOST: str = config["SERVICE_HOST"]
 SERVICE_PORT: int = config["SERVICE_PORT"]
 SERVICE_PATH: str = config["SERVICE_PATH"]
 SERVICE_TOKEN: str = config["SERVICE_TOKEN"]
-TOKEN_FLAG: bool = False
-if SERVICE_TOKEN:
-    TOKEN_FLAG = True
+TOKEN_FLAG: bool = True if SERVICE_TOKEN else False
 
 
 # 发送邮件函数
